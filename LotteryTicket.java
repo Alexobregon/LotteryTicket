@@ -10,19 +10,14 @@ lotteryCard2[0][0] = 20;
 lotteryCard2[0][1] = 15;
 lotteryCard2[0][2] = 7;
 
-
         int left_to_right = 0;
 		int right_to_left = 0;
-		
 		int rows = lotteryCard.length;
 		int columns = lotteryCard[0].length;
-		
-		
 		int i = 0;
 		int j = 0;
 		int k = 0;
 		int l = lotteryCard.length -1;
-		
 		
 		while (i < rows && j < columns && k < rows && l >=0) {
 			left_to_right += lotteryCard[i][j];
@@ -32,8 +27,6 @@ lotteryCard2[0][2] = 7;
 			j++;
 			k++;
 			l--;
-			
-			
 		}
 		
 	  System.out.println(Math.abs(left_to_right - right_to_left));
