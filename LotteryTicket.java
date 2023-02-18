@@ -30,8 +30,6 @@ lotteryCard2[0][2] = 7;
 		}
 		
 	  System.out.println(Math.abs(left_to_right - right_to_left));
-//	  System.out.println(left_to_right);
-//	  System.out.println(right_to_left);
 		
 		
 		
